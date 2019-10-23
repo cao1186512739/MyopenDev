@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="opendev-service" />
+        <module name="opendevcommon" />
+        <module name="opendevservice" />
+        <module name="opendev-webapi" />
+        <module name="opendev-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="opendevpersistence" target="1.8" />
+      <module name="opendevwebapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="opendev-common" options="-parameters" />
+      <module name="opendev-service" options="-parameters" />
+      <module name="opendev-webapi" options="-parameters" />
+      <module name="opendevcommon" options="-parameters" />
+      <module name="opendevpersistence" options="-parameters" />
+      <module name="opendevservice" options="-parameters" />
+      <module name="opendevwebapi" options="-parameters" />
+    </option>
+  </component>
+</project>
