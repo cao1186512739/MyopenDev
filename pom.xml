@@ -36,7 +36,7 @@
         <druid-version>1.1.20</druid-version>
         <commons-lang3.version>3.4</commons-lang3.version>
         <lombok-version>1.18.8</lombok-version>
-        <commons-net-version>3.6</commons-net-version>
+        <commons-net-version>3.9.0</commons-net-version>
         <gson.version>2.7</gson.version>
         <swagger2.version>2.2.2</swagger2.version>
         <fastjson.version>1.2.39</fastjson.version>
